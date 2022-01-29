@@ -17,7 +17,7 @@ cd NCHU-Good-Class-Dataset
 
 ### 2. 準備課程資料
 
-從學校API取得課程資料，但因為有時候API回傳的json格式會錯誤(不會太多，大約2~3個)，所以要麻煩人工修正一下。
+從[學校API](https://onepiece.nchu.edu.tw/cofsys/plsql/json_for_course)取得課程資料，但因為有時候API回傳的json格式會錯誤(不會太多，大約2~3個)，所以要麻煩人工修正一下。
 
 修正好後存在`/data`資料夾下，檔名為`course<semester>.json`。
 
